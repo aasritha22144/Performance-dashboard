@@ -78,12 +78,12 @@ function DashboardContent() {
       {/* Right Column: Data + Controls */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
         <div className="card">
-          <h4>📋 Data Table (Virtualized)</h4>
+          <h4>Data Table (Virtualized)</h4>
           <LiveDataTable />
         </div>
 
         <div className="card">
-          <h4>⚙️ Controls</h4>
+          <h4>Controls</h4>
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 8 }}>
             <button onClick={() => window.location.reload()}>Reload</button>
             <button onClick={activateStress}>Stress Mode</button>
@@ -96,7 +96,7 @@ function DashboardContent() {
               Reset Zoom
             </button>
             <span id="stress-badge" style={{ display: 'none', color: '#ef4444', fontWeight: 600 }}>
-              ⚡ STRESS ACTIVE
+               STRESS ACTIVE
             </span>
           </div>
         </div>
