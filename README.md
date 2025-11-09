@@ -52,7 +52,7 @@ The focus of this project is on achieving **rendering efficiency, low latency, a
 
 ##  Setup Guide
 
-### 1️Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/aasritha22144/Performance-dashboard.git
 cd Performance-dashboard
